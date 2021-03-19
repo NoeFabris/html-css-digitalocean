@@ -6,6 +6,15 @@
     background-color: #fff;
     color: #006aff;
 }
+.text-grey{
+    color: rgba(255, 255, 255, 0.7);
+}
+.bg-grey{
+    background-color: lightgrey;
+}
+.my-btn{
+    width: 100%;
+}
 
 
 
@@ -34,9 +43,6 @@
 .text-white{
     color: white;
 }
-.bg-grey{
-    background-color: lightgrey;
-}
 .bg-blue{
     background-color: #006aff;
 }
@@ -45,4 +51,7 @@
 }
 .m-top{
     margin-top: 0;
+}
+.m-bottom{
+    margin-bottom: 0;
 }
