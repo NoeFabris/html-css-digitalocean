@@ -9,11 +9,46 @@
 .text-grey{
     color: rgba(255, 255, 255, 0.7);
 }
+.text-darkblue{
+    color:  rgb(0, 2, 99);
+}
+.text-blue{
+    color: #006aff;
+}
 .bg-grey{
-    background-color: lightgrey;
+    background-color: #F3F5F9;
 }
 .my-btn{
     width: 100%;
+}
+
+.my-panel{
+    padding: 15px;
+}
+.my-panel *{
+    margin-top: 15px;
+}
+.text-allign{
+    height: 369px;
+}
+.text-allign h1{
+    font-size: 6rem;
+    vertical-align: middle;
+}
+.text-allign p{
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+.bg-jumbotron{
+    padding: 40px 0;
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: contain;
+}
+.prova{
+    background-color: lightgrey;
+}
+.trust *{
+    padding: 5px 0;
 }
 
 

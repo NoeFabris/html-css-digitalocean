@@ -15,6 +15,7 @@
             <div class="navbar navbar-default m-bottom">
                 <div class="container">
                     <div class="navbar-header">
+            <!-- aggiungere hamburger x sm -->
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
@@ -51,17 +52,19 @@
             </div>
         </nav>
 <!-- SEZIONE GET STARTED -->
-        <section class="bg-blue">
+        <section class="bg-blue bg-jumbotron">
             <div class="container">
                 <div class="row">
-                    <div class="border text-white col-md-7">
+        <!-- da sistemare grandeza testo responsive  -->
+                    <div class="border text-white col-md-7 col-sm-7 text-allign">
                         <h1>The simplest cloud platform for developers & teams</h1>
                         <p class="text-grey">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
                     </div>
-                    <div class="border col-md-5">
-                        <div class="panel panel-default text-center">
-                            <h2 class="">Deploy your app in seconds</h2>
-                            <h2>Get started now</h2>
+                    <div class="col-md-5 col-sm-5">
+        <!-- aggiungere loghi e colori -->
+                        <div class="panel panel-default my-panel text-center">
+                            <h2 class="text-darkblue">Deploy your app in seconds</h2>
+                            <h2 class="text-blue">Get started now.</h2>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Email">
                             </div>
@@ -70,16 +73,46 @@
                             </div>
                             <button class="btn btn-default center-block my-btn">Create your account</button>
                             <button class="btn btn-default center-block my-btn">Sign up with google</button>
-                            <p">By signin up you agree to the <a href="#">Terms of Service</a></p>
-
+                            <p>By signin up you agree to the <a href="#"><ins> Terms of Service</ins></a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 <!-- SEZIONE TRUST -->
-        <section>
-            
+        <section class="bg-grey">
+            <div class="container trust">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h5 class="text-uppercase text-center">innovative businesses trust DigitalOcean</h5>            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-6">
+                         <img class="center-block" src="img/docker.svg" alt="">
+                    </div>
+                     <div class="col-md-2 col-sm-2 col-xs-6">
+                         <img class="center-block" src="img/gitlab.svg" alt="">
+                     </div>
+                      <div class="col-md-2 col-sm-2 col-xs-6">
+                          <img class="center-block" src="img/slack.svg" alt="">
+                      </div>
+                     <div class="col-md-2 col-sm-2 col-xs-6">
+                         <img class="center-block" src="img/hashicorp.svg" alt="">
+                     </div>
+                     <div class="col-md-2 col-sm-2 col-xs-6">
+                          <img class="center-block" src="img/hashicorp.svg" alt="">
+                      </div>
+                      <div class="col-md-2 col-sm-2 col-xs-6">
+                         <img class="center-block" src="img/splunk.svg" alt="">
+                     </div>
+                 </div>
+                 <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <p class="text-center"><a href="#">View customer stories ></a></p>     
+                    </div>
+                </div>
+            </div>
         </section>
 <!-- SEZIONE DEPLOY -->
         <section>
