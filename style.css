@@ -1,3 +1,6 @@
+section{
+    padding: 15px 0;
+}
 .logo img{
     max-height: 20px;
 }
@@ -8,6 +11,9 @@
 }
 .text-grey{
     color: rgba(255, 255, 255, 0.7);
+}
+.text-grey1{
+    /* color: rgba(255, 255, 255, 1); */
 }
 .text-darkblue{
     color:  rgb(0, 2, 99);
@@ -49,6 +55,12 @@
 }
 .trust *{
     padding: 5px 0;
+}
+.my-list{
+    border-left: 2px solid grey;
+}
+.my-list-item{
+    border: 0px solid white;
 }
 
 
