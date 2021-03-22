@@ -90,8 +90,17 @@ section{
 .b-bottom{
     border-bottom: 1px solid white;
 }
-
-
+.rocker{
+    width: 50%;
+    margin: auto;
+    padding:20px 0;
+}
+.pd-50{
+    padding: 70px 0;
+}
+.pd-50 p:first-of-type{
+    font-size: 2rem;
+}
 
 
 
@@ -116,6 +125,9 @@ section{
 }
 .text-white{
     color: white;
+}
+.bg-white{
+    background-color: white;
 }
 .bg-blue{
     background-color: #006aff;
