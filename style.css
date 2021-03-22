@@ -101,6 +101,9 @@ section{
 .pd-50 p:first-of-type{
     font-size: 2rem;
 }
+.my-btn-create{
+    border: 5px solid white;
+}
 
 
 
