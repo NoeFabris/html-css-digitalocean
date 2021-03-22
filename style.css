@@ -62,8 +62,28 @@ section{
 .my-list-item{
     border: 0px solid white;
 }
-
-
+.my-corousel{
+    width:100%;
+}
+.frecciasx{
+    text-align: right;
+}
+.my-arrow{
+    font-size: 3rem;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.dot{
+    border-radius: 50%;
+    border: 1px solid #006aff;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 3px;
+}
 
 
 
