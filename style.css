@@ -125,6 +125,18 @@ a{
 .regions a{
     color: #0889C6;
 }
+.pd-30-tb{
+    padding-bottom: 30px;
+}
+p{
+    padding: ;
+}
+.navbar-default .navbar-toggle .my-icon-bar{
+    background-color: #006aff;
+}
+.navbar-default .my-navbar-toggle{
+    border: none;
+}
 
 
 
