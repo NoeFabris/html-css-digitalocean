@@ -1,5 +1,5 @@
 section{
-    padding: 15px 0;
+    padding: 50px 0;
 }
 .row{
     padding-top: 5px;
@@ -29,9 +29,13 @@ section{
 }
 .my-btn{
     width: 100%;
+    border: 0px;
+}
+header .my-btn:last-of-type{
+    box-shadow: 2px 2px #888888;
 }
 
-.my-panel{
+.my-panel{ 
     padding: 15px;
 }
 .my-panel *{
@@ -104,6 +108,23 @@ section{
 .my-btn-create{
     border: 5px solid white;
 }
+.social{
+    padding: 0 5px;
+}
+.bolder{
+    font-weight: bold;
+}
+.g-logo{
+    width: 20px;
+    margin-top: 0;
+    float: left;
+}
+a{
+    color: #006aff;
+}
+.regions a{
+    color: #0889C6;
+}
 
 
 
@@ -135,11 +156,17 @@ section{
 .bg-blue{
     background-color: #006aff;
 }
+.bg-blue-btn{
+    background-color: rgba(0, 106, 255, 0.5);
+}
+.bg-white-btn{
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .bg-darkblue{
     background-color: rgb(0, 2, 99);
 }
 .bg-gradient{
-    background-image: linear-gradient(#0046c4, #0141b0);
+    background-image: linear-gradient(#0552e0, #0141b0);
 }
 .m-top{
     margin-top: 0;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/02fe37fb01.js"></script>
     <title>Digitalocean</title>
 </head>
 <body>
@@ -66,14 +67,16 @@
                             <h2 class="text-darkblue">Deploy your app in seconds</h2>
                             <h2 class="text-blue">Get started now.</h2>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Email">
+                                <input type="text" class="bolder form-control" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Password">
+                                <input type="text" class="bolder form-control" placeholder="Password">
                             </div>
-                            <button class="btn btn-default center-block my-btn">Create your account</button>
-                            <button class="btn btn-default center-block my-btn">Sign up with google</button>
-                            <p>By signin up you agree to the <a href="#"><ins> Terms of Service</ins></a></p>
+                            <button class="btn btn-default center-block my-btn bolder text-white bg-blue-btn">Create your account</button>
+                            <button class="btn btn-default center-block my-btn bolder bg-white-btn">
+                                <img class="g-logo" src="img/google-icon.png" alt=""> 
+                                Sign up with google</button>
+                            <p class="bolder text-darkblue">By signin up you agree to the <a href="#"><ins> Terms of Service</ins></a></p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +224,7 @@
         </section>
 <!-- SEZIONE LIST -->
         <section class="bg-gradient">
-            <div class="container">
+            <div class="container regions">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="text-center text-white">Service your customers around the world from 12 regions.</h2>
@@ -369,7 +372,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-5">
-                        <div class="row b-bottom">
+                        <div class="row">
                             <div class="col-md-1">
                                 <p class="text-white">NYC1</p>
                             </div>
@@ -382,7 +385,7 @@
                         </div>
                     </div>
                     <div class="col-md-5 col-md-offset-2">
-                        <div class="row b-bottom">
+                        <div class="row">
                             <div class="col-md-1">
                                 <p class="text-white">NYC1</p>
                             </div>
@@ -452,8 +455,66 @@
     </main>
 
     <footer>
-        <section>
-
+        <section class="bg-darkblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/logo-small.svg" alt="">
+                        <p class="text-grey"><strong>&copy; 2018 DigitalOcean, LLC. All right reserved.</strong><br>Proudly made in NY</p>
+                        <a href="#"><i class="social text-grey fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="social text-grey fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="social text-grey fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="social text-grey fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+                        <a href="#"><i class="social text-grey fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="text-white">Company</h4>
+                        <a class="text-grey" href="#"><p><strong>About</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Leadership</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Link</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Blog</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Careers</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Partner Network</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Referral Program</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Events</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>press</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Legal & Security</strong></p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="text-white">Products</h4>
+                        <a class="text-grey" href="#"><p><strong>Droplets</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Spaces</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Kubernetes</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Load Balancers</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Block Storage</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Tools & integrations</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>One-Click Apps</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>API</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Pricing</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Documentation</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Release Notes</strong></p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="text-white">Community</h4>
+                        <a class="text-grey" href="#"><p><strong>Tutorials</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Meetups</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Q&A</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Write for Donations</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Droplets for Demos</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Hatch</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Shop Swag</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Research Program</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Current Research</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Open Source</strong></p></a>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="text-white">Support</h4>
+                        <a class="text-grey" href="#"><p><strong>Contact support</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>FAQ</strong></p></a>
+                        <a class="text-grey" href="#"><p><strong>Network Status</strong></p></a>
+                    </div>
+                </div>
+            </div>
         </section>
     </footer>
 </html>
