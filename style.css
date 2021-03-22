@@ -88,8 +88,8 @@ header .my-btn:last-of-type{
     border: 1px solid #006aff;
     width: 10px;
     height: 10px;
-    float: left;
     margin: 3px;
+    display: inline-block;
 }
 .b-bottom{
     border-bottom: 1px solid white;
@@ -137,7 +137,14 @@ p{
 .navbar-default .my-navbar-toggle{
     border: none;
 }
-
+.m-left{
+    margin-left: 80px;
+}
+@media (min-width: 768px){
+    .navbar-collapse.collapse {
+        display: none;
+    }
+}
 
 
 /* Utility Classes */
