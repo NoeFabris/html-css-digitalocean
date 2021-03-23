@@ -158,6 +158,12 @@ a{
     .text-allign p{
         font-size: 2rem;
     }
+    .disp-none-nav{
+        display: none;
+    }
+    .my-navbar-toggle{
+        display: inline-block;
+    }
 }
 /* medium desktop */
 @media (min-width: 992px) and (max-width: 1200px){
